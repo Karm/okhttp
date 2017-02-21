@@ -15,11 +15,11 @@
  */
 package okhttp3;
 
+import javax.net.ssl.SSLSocket;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import javax.net.ssl.SSLSocket;
 
 import static okhttp3.internal.Util.concat;
 import static okhttp3.internal.Util.indexOf;
@@ -58,6 +58,9 @@ public final class ConnectionSpec {
       CipherSuite.TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA,
       CipherSuite.TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,
       CipherSuite.TLS_RSA_WITH_AES_128_GCM_SHA256,
+      CipherSuite.SSL_ECDHE_RSA_WITH_AES_128_GCM_SHA256,
+      CipherSuite.SSL_DHE_RSA_WITH_AES_128_GCM_SHA256,
+      CipherSuite.SSL_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,
       CipherSuite.TLS_RSA_WITH_AES_256_GCM_SHA384,
       CipherSuite.TLS_RSA_WITH_AES_128_CBC_SHA,
       CipherSuite.TLS_RSA_WITH_AES_256_CBC_SHA,

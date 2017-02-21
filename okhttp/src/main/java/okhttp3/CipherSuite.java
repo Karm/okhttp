@@ -143,6 +143,8 @@ public final class CipherSuite {
   public static final CipherSuite TLS_RSA_WITH_AES_256_GCM_SHA384 = of("TLS_RSA_WITH_AES_256_GCM_SHA384", 0x009d);
   public static final CipherSuite TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 = of("TLS_DHE_RSA_WITH_AES_128_GCM_SHA256", 0x009e);
   public static final CipherSuite TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 = of("TLS_DHE_RSA_WITH_AES_256_GCM_SHA384", 0x009f);
+  public static final CipherSuite SSL_DHE_RSA_WITH_AES_128_GCM_SHA256 = of("SSL_DHE_RSA_WITH_AES_128_GCM_SHA256", 0x009ea);
+  public static final CipherSuite SSL_RSA_WITH_AES_128_GCM_SHA256 = of("SSL_RSA_WITH_AES_128_GCM_SHA256", 0x009eb);
   // public static final CipherSuite TLS_DH_RSA_WITH_AES_128_GCM_SHA256 = of("TLS_DH_RSA_WITH_AES_128_GCM_SHA256", 0x00a0);
   // public static final CipherSuite TLS_DH_RSA_WITH_AES_256_GCM_SHA384 = of("TLS_DH_RSA_WITH_AES_256_GCM_SHA384", 0x00a1);
   public static final CipherSuite TLS_DHE_DSS_WITH_AES_128_GCM_SHA256 = of("TLS_DHE_DSS_WITH_AES_128_GCM_SHA256", 0x00a2);
@@ -226,10 +228,12 @@ public final class CipherSuite {
   public static final CipherSuite TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256 = of("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256", 0xc029);
   public static final CipherSuite TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384 = of("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384", 0xc02a);
   public static final CipherSuite TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 = of("TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256", 0xc02b);
+  public static final CipherSuite SSL_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 = of("SSL_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256", 0xc02b1);
   public static final CipherSuite TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 = of("TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384", 0xc02c);
   public static final CipherSuite TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256 = of("TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256", 0xc02d);
   public static final CipherSuite TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384 = of("TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384", 0xc02e);
   public static final CipherSuite TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 = of("TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256", 0xc02f);
+  public static final CipherSuite SSL_ECDHE_RSA_WITH_AES_128_GCM_SHA256 = of("SSL_ECDHE_RSA_WITH_AES_128_GCM_SHA256", 0xc02f1);
   public static final CipherSuite TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 = of("TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384", 0xc030);
   public static final CipherSuite TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256 = of("TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256", 0xc031);
   public static final CipherSuite TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384 = of("TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384", 0xc032);
